@@ -1,0 +1,28 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: ghostwhite;
+}
+
+.row{
+    width: 850px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    font-family:'Hurricane', cursive;
+    font-size: 40px;
+}
+
+.square{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(100, 100, 100, .4);
+    border: 1px solid rgb(130, 130, 130);
+    margin-bottom: 70px;
+}
