@@ -1,3 +1,11 @@
+let itemsSquare = "";
+
+    for (let i = 0; i < 11; i++){
+        itemsSquare += `<div class="square"></div>`
+}
+
+const squareElement = document.querySelector("#square-wrapper").innerHTML = itemsSquare
+
 const app = new Vue({
     el: '#app',
 

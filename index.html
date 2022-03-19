@@ -33,23 +33,11 @@
                     <input type="text" v-model="newToDoContent" @keydown.enter="addToDoElement(newToDoContent)">
                     <button class="btn-dark rounded-2 ms-3" @click="addToDoElement(newToDoContent)">Aggiungi</button>
                 </div>
-                <div class="col-1">
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
+                <div id="square-wrapper" class="col-1">
                 </div>
                 <div class="col-11 pt-5 text-start">
                     <ul>
-                        <li class="d-flex justify-content-between p-2" v-for="(element, index
-                        ) in toDoList">{{element}}<i class="fas fa-times" @click="removeToDoElement(index)"></i></li> 
+                        <li class="d-flex justify-content-between p-2" v-for="(element, index) in toDoList">{{element}}<i class="fas fa-times" @click="removeToDoElement(index)"></i></li> 
                     </ul>
                 </div>
             </div>
